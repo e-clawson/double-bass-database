@@ -55,6 +55,6 @@ end
   end
 
   def serialized_user
-    @user.to_json
+    @user.to_json(include: :lists)
   end
 end
