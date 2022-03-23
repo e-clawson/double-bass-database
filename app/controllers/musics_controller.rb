@@ -1,4 +1,4 @@
-
+require "pry"
 class MusicsController < ApplicationController
 
   # GET: /musics
@@ -8,7 +8,8 @@ class MusicsController < ApplicationController
 
   # POST: /musics
   post "/musics" do
-        music = Music.new(params)
+        music = Music.new(params) 
+        binding.pry
         if @music.id
          serialized_music
        else
