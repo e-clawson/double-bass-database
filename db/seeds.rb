@@ -1,5 +1,5 @@
-liz = User.create(username: "LizzyC", first_name: "Liz", last_name: "Clawson", password:"12345", email: "emclawson1@gmail.com", role: 1)
-kate = User.create(username: "DoubleBassKate", first_name: "Kate", last_name: "Alexandra", password:"bass", email: "doublebasskate@gmail.com", role: 0)
+liz = User.create(username: "LizzyC", first_name: "Liz", last_name: "Clawson", password:"123456", email: "emclawson1@gmail.com", role: 1)
+kate = User.create(username: "DoubleBassKate", first_name: "Kate", last_name: "Alexandra", password:"bassss", email: "doublebasskate@gmail.com", role: 0)
 dan = User.create(username: "BassTheoryChaos", first_name: "Dan", last_name: "Bergren", password:"hello-world!", email: "basstheorychaos@gmail.com", role: 0)
 
 Music.create(title: "Elegy No. 1 in D Major", instrumentation: "Solo with piano accompaniment", composer_first_name: "Giovanni", composer_last_name: "Bottesini", year_composed: 1870, length: "5 minutes" )
