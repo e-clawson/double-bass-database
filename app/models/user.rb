@@ -3,5 +3,15 @@ class User < ActiveRecord::Base
     validates :username, presence: true
     validates :email, presence: true, uniqueness: true
 
-   # enum role: %i(client administrator)
+   # user roles
+   enum role: %i(client administrator)
+
+   # password security 
+   has_secure_password
+
+   # validations
+   validates :username, presence: true, length: {in: 4..25}
+   validates :email, presence: true, uniqueness: true, format: {with: /\A(?<username>[^@\s]+)@((?<domain_name>[-a-z0-9]+)\.(?<domain>[a-z]{2,}))\z/i}
+   validates :password, length: {in: 6..25}
+
 end

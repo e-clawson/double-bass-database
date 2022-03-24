@@ -12,6 +12,7 @@ gem 'bcrypt'
 gem 'faker'
 gem 'rack-cors'
 gem 'rack-contrib'
+gem 'dotenv'
 
 group :development do
   gem 'sqlite3'

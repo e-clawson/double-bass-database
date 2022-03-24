@@ -13,6 +13,7 @@ end
 
 use Rack::JSONBodyParser
 
+use SessionsController
 use UsersController
 use MusicsController
 run ApplicationController
