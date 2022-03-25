@@ -10,6 +10,7 @@ class UsersController < ApplicationController
   post "/users" do
    @user = User.create(params)
    if @user.id
+    session[:user_id] = user.id
     serialized_user
   else
     @user.errors.full_messages.to_sentence
