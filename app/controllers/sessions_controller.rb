@@ -1,7 +1,5 @@
  class SessionsController < ApplicationController
  
-
-
  # POST: /sessions
   post "/login" do
     user = User.find_by_email(params[:email])
@@ -11,10 +9,10 @@
     else 
         halt 404, {error: "Invalid Credentials!"}
     end
-end
+  end
 
-    delete "/logout" do
+  delete "/logout" do
     session.delete("user_id")
     {message: "User has successfully logged out!"}.to_json
-    end
+  end
 end

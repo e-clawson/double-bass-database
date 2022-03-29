@@ -6,16 +6,16 @@ class UsersController < ApplicationController
     User.all.to_json
   end
 
-  # POST: /users
+  # POST: /users (sign-up)
   post "/users" do
-   @user = User.create(params)
-   if @user.id
-    session[:user_id] = user.id
-    serialized_user
-  else
-    @user.errors.full_messages.to_sentence
+    @user = User.create(params)
+    if @user.id
+     session[:user_id] = user.id
+     serialized_user
+   else
+     @user.errors.full_messages.to_sentence
+   end
   end
-end
 
   # GET: /users/5
   get "/users/:id" do
