@@ -1,22 +1,24 @@
+
 # Double Bass Database 
 
-Double Bass Database is a resource for bassists to explore bass music avaiable to perform. Double bass music is a niche area of music publication, and as a result, it can be difficult to find music to perform. Double Bass Database seeks to solve this issue by providing bassists with an open-source list of bass music to browse. Users can login, see the complete list, and favorite pieces that are populated in an individual users favorites list.  
+Double Bass Database is a resource for bassists to explore bass music avaiable to perform. Double bass music is a niche area of music publication, and as a result, it can be difficult to find music to perform. Double Bass Database seeks to solve this issue by providing bassists with an open-source list of bass music to browse. Users can login, see the complete list, and favorite pieces that are then populated into their individual user favorites list on their user page. 
 
-How did I setup my models - how did I decide on the structure/why - 
+This project was designed to fufill the requirements of Flatiron School's part-time software engineering course phase 3 project, and is still in development. 
+
 ## Installation
 
-To install Gems required to run this app, run bundle install 
+To install Gems required to run this app, run 'bundle install' 
 
-This database runs alongside the frontend react-app My-App-Frontend. To view and access this please follow this link: 
+To start the server run 'shotgun'
 
+This frontend runs alongside a react frontend titled ny-app-frontend. To view and access this please follow this link: 
 
-## Usage
+    https://github.com/e-clawson/my-app-frontend
 
-```python
-import foobar
+By following the above link, you will be able to find a seperate README file with instructions on how to install and start the frontend 
 
-# open database and run the server
-shotgun
+### 
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -26,7 +28,8 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-##Acknowledgements
-A special thank you to Flatiron School and Matteo Piccini for their assistance with this project and for educating me. 
+## Acknowledgements
+A special thank you to Flatiron School and especially Matteo Piccini assistance with this project and for teaching me. 
 
-A thank you to Paul Nemeth for the inspirtation 
+A thank you to Paul Nemeth for the inspirtation. Paul Nemeth's Website can be found here: 
+    https://www.paulnemeth.com/basschamber

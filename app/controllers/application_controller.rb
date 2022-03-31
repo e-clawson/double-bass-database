@@ -19,7 +19,7 @@ class ApplicationController < Sinatra::Base
     else
       halt 404, {error: "No one is logged in!"}.to_json
     end
-end
+  end
 
   private
 

@@ -8,6 +8,7 @@ class UsersController < ApplicationController
 
   # POST: /users (sign-up)
   post "/users" do
+
     @user = User.create(params)
     if @user.id
      session[:user_id] = user.id
