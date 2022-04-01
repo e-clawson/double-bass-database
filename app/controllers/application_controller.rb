@@ -4,6 +4,7 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     # set :views, 'app/views'
     set :default_content_type, :json
+    enable :sessions
     set :session_secret, ENV["SESSION_SECRET"]
   end
 
