@@ -5,6 +5,12 @@ Double Bass Database is a resource for bassists to explore bass music avaiable t
 
 This project was designed to fufill the requirements of Flatiron School's part-time software engineering course phase 3 project, and is still in development. 
 
+Here is a link to my video walkthrough of this project: 
+https://www.youtube.com/watch?v=Q1Iqx6t7N_8
+
+Here is a blog post I wrote while working on this project: 
+https://medium.com/@emclawson1/my-first-full-stack-application-and-how-i-used-active-record-models-and-associations-2541dc01ceaf
+
 ## Installation
 
 To install Gems required to run this app, run 'bundle install' 
